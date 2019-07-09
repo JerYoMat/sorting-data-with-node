@@ -1,0 +1,15 @@
+{
+  "name": "validate-txn-data",
+  "version": "1.0.0",
+  "description": "validate data and generate csv that conforms to standard template",
+  "main": "index.js",
+  "repository": "tbd",
+  "author": "JerYoMat <jeremy.emata@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "csv-parser": "^2.3.0",
+    "eslint": "^6.0.1",
+    "strip-bom-stream": "^4.0.0"
+  }
+}
