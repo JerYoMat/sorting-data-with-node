@@ -1,8 +1,8 @@
-const myCsvUtil = require('./lib/handleCSV');
+const myCSVUtil = require('./lib/handleCSV');
 const hub = require('./lib/checkAndAssignData');
 
 (async () => {
-  const data = await myCsvUtil.parseData('./data/Data.csv');
+  const data = await myCSVUtil.parseData('./data/Data.csv');
   const namedColumns = {};
   data.forEach(row => {
     for (const column in row) {
